@@ -30,7 +30,7 @@ namespace RazorPagesMovie31.Models
                         ReleaseDate = DateTime.Parse("1949-8-24"),
                         Genre = "Tortoise",
                         Price = 232.00M,
-                        //Rating = "T5"
+                        Rating = "T5"
                     },
 
                     new Movie
@@ -39,7 +39,7 @@ namespace RazorPagesMovie31.Models
                         ReleaseDate = DateTime.Parse("2015-12-24"),
                         Genre = "Sea Movie",
                         Price = 125.50M,
-                        //Rating = "T5"
+                        Rating = "T5"
                     },
 
                     new Movie
@@ -48,7 +48,7 @@ namespace RazorPagesMovie31.Models
                         ReleaseDate = DateTime.Parse("2018-11-27"),
                         Genre = "Sea Movie",
                         Price = 58.98M,
-                        //Rating = "T5"
+                        Rating = "T5"
                     },
 
                     new Movie
@@ -57,7 +57,7 @@ namespace RazorPagesMovie31.Models
                         ReleaseDate = DateTime.Parse("2020-1-1"),
                         Genre = "Western Box Movie",
                         Price = 15.00M,
-                        //Rating = "T5"
+                        Rating = "T5"
                     }
                 );
                 context.SaveChanges();
